@@ -743,9 +743,9 @@ Once this has run to completion, inspect the FastQC-generated HTML reports to se
   
   **Answer:** The quality of the reads has improved after cleaning with Cutadapt, but there are some issues.
   
-  The [Sequence length distribution](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/7%20Sequence%20Length%20Distribution.html) warning can also be ignored as we expect variable-length sequences after trimming.
+  The [Sequence length distribution](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/7%20Sequence%20Length%20Distribution.html) warning can be ignored as we expect variable-length sequences after trimming.
   
-  Sequence duplication can be addressed by discarding either duplicate reads or duplicate alignments to a reference genome.
+  [Sequence duplication](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/8%20Duplicate%20Sequences.html) can be addressed by discarding either duplicate reads or duplicate alignments to a reference genome.
   We will use the latter approach.
 </p></details>
 
