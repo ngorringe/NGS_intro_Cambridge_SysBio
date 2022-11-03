@@ -1,6 +1,6 @@
 # Introduction to next-generation sequencing data: tools and resources
 
-This [link](https://mn359.github.io/NGS_intro_Cambridge_SysBio/) will take you to the GitHub Pages rendering of this practical. If nothing changes when you click on it, you're already there!
+This [link](https://naish-m.github.io/NGS_intro_Cambridge_SysBio/) will take you to the GitHub Pages rendering of this practical. If nothing changes when you click on it, you're already there!
 
 If you have any questions or comments about the practical, please email Matthew Naish at <mn359@cam.ac.uk>.
 
