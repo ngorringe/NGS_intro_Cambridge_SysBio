@@ -21,7 +21,7 @@ All of the software we'll be using today has been pre-installed on the Linux com
 ## Background
 
 [The cost of DNA sequencing has decreased dramatically since the end of 2007](https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data).
-This was the point at which sequencing efforts increasingly moved away from the [Sanger dye-terminator method](https://en.wikipedia.org/wiki/Sanger_sequencing), to a "next" generation of sequencing technologies, which are faster, cheaper and produce many more reads in parallel.
+This was the point at which sequencing efforts increasingly moved away from the [Sanger dye-terminator method](https://en.wikipedia.org/wiki/Sanger_sequencing), to a "next" generation of sequencing technologies, which are faster, cheaper and produces many more reads in parallel.
 Despite their higher throughput, the reads are shorter and of lower quality than those produced by Sanger sequencing.
 
 One next-generation sequencing (NGS) technology has come to dominate: [Illumina sequencing by synthesis (SBS)](https://www.illumina.com/documents/products/techspotlights/techspotlight_sequencing.pdf) on Genome Analyzer, HiSeq, MiSeq, NextSeq and NovaSeq instruments.
@@ -30,14 +30,14 @@ Illumina acquired Solexa in 2007.
 
 This [animation](https://www.youtube.com/watch?v=fCd6B5HRaZ8) shows in detail how Illumina sequencing by synthesis works.
 The method uses flow cells containing clusters of clonally amplified DNA fragments.
-The underlying nucleotide sequence of each fragment is determined based on signal emitted by each cluster under laser excitation of a fluorescently labelled nucleotide that has been added to an extending sequence complementary to the fragment.
+The underlying nucleotide sequence of each fragment is determined based on the signal emitted by each cluster under laser excitation of a fluorescently labeled nucleotide that has been added to an extending sequence complementary to the fragment.
 Millions or even billions of clusters per flow cell are sequenced simultaneously, during which for each cluster an image is captured for each successive base along the DNA fragment, with read length dependent on the method employed. 
 
 Due in large part to this breakthrough technology, we have seen the cost of sequencing a single person’s genome drop from a prohibitive US$10 million in 2007 to ~US$1,000 by mid-2015!
 There have been various refinements to Illumina’s technology, including the use of [patterned flow cells](https://emea.illumina.com/science/technology/next-generation-sequencing/sequencing-technology/patterned-flow-cells.html) that have billions of ordered nanowells.
 These patterned flow cells provide optimal "fixed" rather than random spacing between clusters of clonally amplified DNA fragments, for increased cluster density and simplified imaging.
 
-A third generation of sequencing machines from [Pacific Biosciences (PacBio)](https://www.pacb.com/smrt-science/smrt-sequencing/) and [Oxford Nanopore Technologies (ONT)](https://nanoporetech.com/how-it-works) have become available more recently, providing average read lengths of 10–18 kilobases.
+A third generation of sequencing machines from [Pacific Biosciences (PacBio)](https://www.pacb.com/smrt-science/smrt-sequencing/) and [Oxford Nanopore Technologies (ONT)](https://nanoporetech.com/how-it-works) have become available more recently, these technologies are able to sequence much larger DNA fragments. PacBio High-Fidelity (HiFi) sequencing provides average read lengths of 15–25 kilobases with up to 99.9% accuracy. While Nanopore sequencing the read length is equal to the DNA fragment size, with the longest read sequenced spanning 4 Megabases, with an accuracy of ~98%.
 
 A number of considerations come into play when deciding on what kind of sequencing technology to use for a project.
 Cost and time requirements differ between technologies.
