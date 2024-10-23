@@ -103,8 +103,7 @@ pwd
 
 ### Output:
 ```
-/home/participant/Course_Materials/Tools_and_Resources
-
+/home/participant/Course_Materials
 ```
 
 This is a useful command to run every now and again to check exactly where you're working in the directory structure, because often you'll expect to find particular files in subdirectories of your current working directory.
@@ -116,7 +115,6 @@ It's also possible and sometimes more appropriate to navigate to particular loca
 
 ```
 cd /home/participant/Course_Materials/Tools_and_Resources/
-
 ```
 
 The sequencing reads are contained in gzip-compressed [FASTQ](https://en.wikipedia.org/wiki/FASTQ_format) files, a standardised format that NGS data analysis tools have been developed to handle.
