@@ -8,7 +8,7 @@ If you have any questions or comments about the practical, please email Matthew 
 
 ## Setup
 
-All of the software we'll be using today has been pre-installed on the Linux computers in the Bioinformatics Training Room, as software installation can be a time-consuming task. Nonetheless, links to the software installation pages are provided below, which you can refer back to later if you want to run subsequent analyses on your own computer:
+All of the software we'll be using today has been pre-installed on the Linux computers, as software installation can be a time-consuming task. Nonetheless, links to the software installation pages are provided below, which you can refer back to later if you want to run subsequent analyses on your own computer:
   * [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
   * [Cutadapt](https://cutadapt.readthedocs.io/en/stable/installation.html)
   * [Bowtie 2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)
