@@ -766,7 +766,7 @@ For species with chromosome-level assemblies, each chromosome is represented as 
 The first line of each separate sequence in the FASTA file is a description line, beginning with a greater-than symbol followed by a name or unique identifier for the sequence (e.g., `>Chr1`) and optional additional information.
 The nucleotide sequence is wrapped over the subsequent lines up until the next distinct sequence description line.
 
-The reference genome assembly for *Arabidopsis thaliana* (`TAIR10_chr_all.fa`) is located in `/home/participant/Course_Materials/genome/`.
+The reference genome assembly for *Arabidopsis thaliana* (`TAIR10_chr_all.fa`) is located in `/home/participant/Course_Materials/Tools_and_Resources/genome/`.
 This was previously downloaded from [The Arabidopsis Information Resource (TAIR)](https://www.arabidopsis.org/download/index-auto.jsp?dir=%2Fdownload_files%2FGenes%2FTAIR10_genome_release%2FTAIR10_chromosome_files), so there's no need to download it for this practical.
 
 ### Exercise 5
@@ -1473,11 +1473,11 @@ You may need to select "More..." first to see available reference genomes other 
 
 To load the filtered read alignments in BAM format, navigate through the "File" menu to its location in the file system:
 
-> File > Load from File... > Course_Materials/results/samtools/SRR3166543_top1M_MappedOn_TAIR10_chr_all_markdup_unique_sort.bam  
+> File > Load from File... > Course_Materials/Tools_and_Resources/results/samtools/SRR3166543_top1M_MappedOn_TAIR10_chr_all_markdup_unique_sort.bam  
 
 Load the VCF file containing filtered variant sites in the same way:
 
-> File > Load from File... > Course_Materials/results/bcftools/SRR3166543_top1M_variants_filtered.vcf  
+> File > Load from File... > Course_Materials/Tools_and_Resources/results/bcftools/SRR3166543_top1M_variants_filtered.vcf  
 
 At the top of the browser, there's a left–right scrollable, in–out zoomable rectangular panel showing coordinates in the reference genome sequence.
 You can select individual sequences (e.g., chromosomes) within the reference sequence by clicking on their names within in the drop-down menu to the right of the genome selection drop-down menu at the top-left of the window.
