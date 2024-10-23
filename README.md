@@ -103,23 +103,25 @@ pwd
 
 ### Output:
 ```
-/home/participant/Course_Materials
+/home/participant/Course_Materials/Tools_and_Resources
+
 ```
 
 This is a useful command to run every now and again to check exactly where you're working in the directory structure, because often you'll expect to find particular files in subdirectories of your current working directory.
 
 Run `ls` to list the contents of your current working directory.
-Navigate into the `fastq/` and `genome/` subdirectories of `Course_Materials/` using `cd` (<ins>c</ins>hange <ins>d</ins>irectory) and `cd ..` commands (the latter of which navigates one directory up in the directory structure), and list their contents using `ls`.
+Navigate into the `fastq/` and `genome/` subdirectories of `Course_Materials/Tools_and_Resources` using `cd` (<ins>c</ins>hange <ins>d</ins>irectory) and `cd ..` commands (the latter of which navigates one directory up in the directory structure), and list their contents using `ls`.
 This process of navigating around the directory structure has involved issuing `cd` commands followed by *relative paths*.
 It's also possible and sometimes more appropriate to navigate to particular locations in the directory structure using *absolute paths*:
 
 ```
-cd /home/participant/Course_Materials/
+cd /home/participant/Course_Materials/Tools_and_Resources/
+
 ```
 
 The sequencing reads are contained in gzip-compressed [FASTQ](https://en.wikipedia.org/wiki/FASTQ_format) files, a standardised format that NGS data analysis tools have been developed to handle.
 These files are available on the Linux computers we are using today, so there's no need to download them.
-The files are located in `/home/participant/Course_Materials/fastq/`.
+The files are located in `/home/participant/Course_Materials/Tools_and_Resources/fastq/`.
 
 Data in FASTQ format conform to these standards:
 
